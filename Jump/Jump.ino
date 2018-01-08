@@ -79,7 +79,6 @@ void loop()
 //    s = char_to_int(a) * 1000 + char_to_int(b) * 100 + char_to_int(c) * 10 + char_to_int(d);
 //    Serial.println(s, DEC);
 //  }
-  //s = s * 23;
     for(int pos = 0; pos <= 30; pos ++)
     {
         myServo.write(pos);
