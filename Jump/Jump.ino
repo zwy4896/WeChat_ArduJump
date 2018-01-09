@@ -10,8 +10,8 @@ String temp = "";   //cache, maybe
 
 void setup()
 {
-	//  open the door! little boy! init servo
-	Serial.begin(9600);
+    //  open the door! little boy! init servo
+    Serial.begin(9600);
     myServo.attach(9);
     myServo.write(pos_ini);
     delay(1000);
